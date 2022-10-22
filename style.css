@@ -1,0 +1,43 @@
+/* declarar las constantes de colores y fuentes */
+
+:root{
+    /* fuentes*/
+    --titulos:'Lato', sans-serif;
+    --parrafos:'Comic Neue', cursive;
+    /* colores */
+    --encabezado:aqua;
+    --piepagina:rgb(17, 16, 16);
+    --enlace: #fff;
+    --enlacesobre:rgb(110, 17, 98);
+    --fondo:rgba(167, 111, 111, 0.212);
+}
+
+/*selector universal() */
+*{
+    box-sizing: border-box;
+}
+
+/* notacion de una clase en css es (.) y en html es class */
+
+header nav{
+    float: right;
+    margin-top: 12
+    px;
+    background-color: aqua;
+}
+
+.titulos{
+    background-color: var(--encabezado);
+}
+
+header nav a{
+    color: var(--enlace);
+    background-color: aqua;
+    text-decoration:none ;
+    border-radius: 3px;
+    font-size: medium;
+    margin-left: 6px;
+    padding: 4px;
+
+}
+
